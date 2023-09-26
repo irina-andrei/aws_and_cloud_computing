@@ -69,37 +69,51 @@ Each type of cloud computing provides different levels of control, flexibility, 
 ### Advantages/Disadvantages of the Cloud
 #### Advantages:
 
-1. Disaster Recovery (DR) - data is at a reduced risk of system failure since all data is stored and backed-up on an external devise often thousands of miles away from your own location. This means you avoid expensive data retrieval.
+1. **Disaster Recovery** (DR) - data is at a reduced risk of system failure since all data is stored and backed-up on an external devise often thousands of miles away from your own location. This means you avoid expensive data retrieval.
 
-2. Access your data anywhere - Cloud storage makes it easy for employees to login and access other team members’ work regardless of location and distance that separates team members. 
+2. **Access your data anywhere** - Cloud storage makes it easy for employees to login and access other team members’ work regardless of location and distance that separates team members. 
 
-3. Low cost - Cloud storage eliminates the need to pay for software licences and updates since all this is included in one global monthly price. 
+3. **Low cost** - Cloud storage eliminates the need to pay for software licences and updates since all this is included in one global monthly price. 
 
-4. Scalability - You only pay for the amount of storage you need. If your business experiences growth, the cloud operator is able to accommodate your corresponding growth in data storage needs.
+4. **Scalability and Flexibility** - Scale with demand and use however you want. You only pay for the amount of storage you need. If your business experiences growth, the cloud operator is able to accommodate your corresponding growth in data storage needs.
 
-5. Security - Professional cloud storage firms typically offer far better data security than is otherwise available to small businesses through efforts of their own. Cloud storage companies offer password protected data storage. 
+5. **Security** - Professional cloud storage firms typically offer far better data security than is otherwise available to small businesses through efforts of their own. Cloud storage companies offer password protected data storage. 
+
+6. **Business Agility** - easy to keep up with market trends and business changes.
+
+7. **Improved Collaboration** - Teams can easily work on the same projects. 
+
+8. **Economies of Scale** - Bigger organisations can operate at a larger scale and pass cost saving on to you/your business.
+
+
 
 <br>
 
 #### Disadvantages:
 
-1. Lack of total control - Since data is held offsite by a company you do not control, you lack the ability to control and customise your data storage set-up. This likely to be an issue for larger businesses who have complex storage needs. 
+1. **Lack of total control** - Since data is held offsite by a company you do not control, you lack the ability to control and customise your data storage set-up. This likely to be an issue for larger businesses who have complex storage needs. Also possible that some services might not be available.
 
-2. Difficult to migrate - Once you’ve signed up and started using one particular cloud storage provider, it is difficult to migrate data to another cloud provider later on. This is a phenomenon known as 'vendor lock-in'.
+2. **Difficult to migrate** - Once you’ve signed up and started using one particular cloud storage provider, it is difficult to migrate data to another cloud provider later on. This is a phenomenon known as 'vendor lock-in'.
 
-3. Requires Internet - If your Internet connection fails, so does your access to remotely stored data. Internet failure thus leads to costly downtime when your business heavily relies on cloud storage. 
+3. **Requires Internet** - If your Internet connection fails, so does your access to remotely stored data. Internet failure thus leads to costly downtime when your business heavily relies on cloud storage. 
 
-4. Security and privacy have been an issue - 
+4. **Security and privacy** have been an issue - 
 Cloud storage means handing over the control of confidential information to a third party company. In the past things have been known to go wrong with cloud storage companies. 
 
-5. Fixed contracts can be a problem - Some cloud storage suppliers may try to fix you into a long term contract. This may be disadvantageous if your data storage needs reduce meaning you must now pay for storage you're not even using.
+5. **Fixed contracts can be a problem** - Some cloud storage suppliers may try to fix you into a long term contract. This may be disadvantageous if your data storage needs reduce meaning you must now pay for storage you're not even using.
+
+6. **Downtime** - even though downtime occurs rarely, you still have no control over it.
+
+7. **Expertise needed** - in most situations you still need experts to operate on cloud effectively.
+
+8. **Performance affected** - this can be due to resources still being limited.
 
 <br>
 
-### What is OpEx vs CapEx?
-**Capex**, or *capital expenditure*, is a business expense incurred to create future benefit (i.e., acquisition of assets that will have a useful life beyond the tax year). For example, a business might buy new assets, like buildings, machinery, or equipment, or it might upgrade existing facilities so their value as an asset increases.
+### What is CapEx vs OpEx?
+**CapEx**, or *capital expenditure*, is a business expense incurred to create future benefit (i.e., acquisition of assets that will have a useful life beyond the tax year). For example, a business might buy new assets, like buildings, machinery, or equipment, or it might upgrade existing facilities so their value as an asset increases.
 
-On the other hand, those expenditures required for the day-to-day functioning of the business, like wages, utilities, maintenance, and repairs, fall under the category of **Opex**, or *operational expenditure*. Opex is the money the business spends in order to turn inventory into throughput. Operating expenses also include depreciation of plants and machinery which are used in the production process.
+On the other hand, those expenditures required for the day-to-day functioning of the business (like wages, utilities, maintenance, and repairs) fall under the category of **OpEx**, or *operational expenditure*. OpEx is the money the business spends in order to turn inventory into throughput. Operating expenses also include depreciation of plants and machinery which are used in the production process. Operational Expenditures are normally *preferred*.
 
 <br>
 
@@ -109,18 +123,18 @@ On the other hand, those expenditures required for the day-to-day functioning of
 <br>
 
 ### What are the 3 largest Cloud providers known for (What makes them popular?)
-1. AWS (Amazon) - AWS is mainly attributed to its ability to provide computing power and storage capacity at affordable costs with high reliability.
-2. Azure (Microsoft) offers serverless relational databases such as Azure SQL and non-relational databases such as NoSQL. In addition, the platform is frequently used for backup and disaster recovery.
-3. Google Cloud - Google offers a complete data foundation to unify all workloads and manage the entire data life cycle. The solution is designed to run data anywhere, so you can leverage your data across all clouds, on-premises, and access it in the most popular SaaS apps.
+1. **AWS (Amazon)** - AWS is mainly attributed to its ability to provide computing power and storage capacity at affordable costs with high reliability.
+2. **Azure (Microsoft)** offers serverless relational databases such as Azure SQL and non-relational databases such as NoSQL. In addition, the platform is frequently used for backup and disaster recovery.
+3. **Google Cloud** - Google offers a complete data foundation to unify all workloads and manage the entire data life cycle. The solution is designed to run data anywhere, so you can leverage your data across all clouds, on-premises, and access it in the most popular SaaS apps.
 
 <br>
 
 ### What are the 4 pillars of DevOps? 
 Here are the 4 pillars of effective DevOps:
-- Collaboration
-- Affinity
-- Tools
-- Scaling
+- **Ease of Use** - making sure what is developed is easy to use
+- **Flexibility** - Industry changes at a fast rate, so not creating systems that rely heavily on one app, service etc.
+- **Robustness** - Aiming for uptime as close to 99.9% as possible
+- **Cost** - trying to be as cost-effective as possible, while being efficient and forward-thinking.
 
 <br>
 
@@ -137,4 +151,3 @@ Sources:
 - [AWS](https://www.exabytes.my/blog/why-amazon-aws-widely-used/#:~:text=It's%20easy%20to%20see%20why,affordable%20costs%20with%20high%20reliability.)
 - [Azure](https://www.techtarget.com/searchcloudcomputing/definition/Windows-Azure#:~:text=Azure%20is%20also%20commonly%20used,for%20backup%20and%20disaster%20recovery.)
 - [Google](https://cloud.google.com/why-google-cloud)
-- [4 Pillars of DevOps](https://www.oreilly.com/library/view/effective-devops/9781491926291/ch06.html)
