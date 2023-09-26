@@ -1,7 +1,7 @@
 # AWS and Cloud Computing
 
 ### What is Cloud Computing? 
-![AltText](/images/cloud_computing_diagram.jpg)
+![AltText](cloud_computing_diagram.jpg)
 Cloud computing is *on-demand access*, via the internet, to computing resources — applications, servers (physical servers and virtual servers), data storage, development tools, networking capabilities and more — hosted at a remote data center managed by *a cloud services provider* (or CSP). The CSP makes these resources available for a *monthly subscription fee* or bills them according to usage.
 
 <br>
@@ -104,7 +104,7 @@ On the other hand, those expenditures required for the day-to-day functioning of
 <br>
 
 ### Marketshare - What is the breakdown?
-![AltText](/images/marketshare.jpeg)
+![AltText](marketshare.jpeg)
 
 <br>
 
