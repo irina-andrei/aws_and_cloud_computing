@@ -136,9 +136,14 @@ Examples of code changes:
 - -xw
 - g-w
 
+### Useful link:
+[Code Calculator](https://chmod-calculator.com/)
+
+<br>
 
 ### Variables
 - `printenv` will print all variables
 - `printenv <variable_name>` will print the contents of the variable
 - Variables can be *environmental* (entire OS has access) or *local* (only within the current process you have access, ex: BASH).
 `export <variable_name>=<content>` will create an **environment variable**.
+
