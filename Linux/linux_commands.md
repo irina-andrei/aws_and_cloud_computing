@@ -7,7 +7,21 @@
 
 <br>
 
-- Printing the processor specifications:
+### Overview Information:
+
+- Displaying the kernel name:
+
+```
+uname
+```
+
+- Displaying system information about the machine:
+
+```
+uname -a
+```
+
+- Displaying the processor specifications:
 
 ```
 uname -p
@@ -45,6 +59,7 @@ cat /etc/shells
 ```
 cd /
 ```
+
 - Moving location to HOME:
 ```
 cd
