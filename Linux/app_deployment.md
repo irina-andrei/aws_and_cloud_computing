@@ -10,7 +10,7 @@
 
 
 ## Steps:
-1. Start an *EC2 Instance* and install the *'nginx'* Web Server (for more detailed steps, you can access [EC2 instance and 'nginx' Steps](AWS\EC2_instance.md)). Recap of commands:
+1. Start an *EC2 Instance* and install the *'nginx'* Web Server (for more detailed steps, you can access [EC2 instance and 'nginx' Steps](AWS/EC2_instance.md)). Recap of commands:
 ```
 cd .ssh
 chmod 400 tech254.pem
