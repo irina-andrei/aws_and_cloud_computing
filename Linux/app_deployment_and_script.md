@@ -10,7 +10,7 @@
 
 
 ## Steps:
-1. Start an *EC2 Instance* and install the *'nginx'* Web Server (for more detailed steps, you can access [EC2 instance and 'nginx' Steps](AWS/EC2_instance.md)). Recap of commands:
+1. Start an *EC2 Instance* and install the *'nginx'* Web Server (for more detailed steps, you can access [EC2 instance and 'nginx' Steps](/AWS/EC2_instance.md)). Recap of commands:
 ```
 cd .ssh
 chmod 400 tech254.pem
@@ -111,3 +111,75 @@ node app.js
 ### App Preview:
 
 ![AltText](Images/successful_app_preview.png)
+
+<br>
+
+
+## Automation Script
+
+This script will automate the entire app installation.
+
+### Steps:
+
+1. Creating and opening a Script file:
+```
+nano <script_name.sh>
+```
+
+![AltText](Images/provision_nano.png)
+
+
+2. Writing your script code:
+```
+#!/bin/bash
+
+# cloning the app files to the instance
+git clone https://github.com/LSF970/sparta_test_app.git
+
+# tell the os what version of nodejs you want
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+# install nodejs
+sudo apt install nodejs -y
+
+# install process manager
+sudo npm install pm2 -g
+
+# go to the app folder
+cd ./sparta_test_app/app
+
+# install your app
+npm install
+
+# run the app
+node app.js
+```
+![AltText](Images/provision_code_nano.png)
+
+Press `Ctrl + X` to Exit, choose `Y` to save file and press `Enter` to confirm file name save.
+
+<br>
+
+3. Add permision for this script to be run:
+
+```
+sudo chmod +x provision_app.sh
+```
+![AltText](Images/permission_provision.png)
+
+<br>
+
+4. Call the script:
+
+```
+./provision_app.sh
+```
+![AltText](Images/call_script.png)
+
+<br>
+
+
+### App Preview after Script was run:
+
+![AltText](Images/confirmation.png)
+![AltText](Images/successful_app_preview_script.png)
