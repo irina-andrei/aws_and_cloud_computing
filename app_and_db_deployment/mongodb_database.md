@@ -105,7 +105,7 @@ printenv DB_HOST
 => Will print `mongodb://52.48.239.89:27017/posts`
 
 
-* Running the app:
+* Running the app, go to the app location (in our case, ~/sparta_test_app/app):
 ```
 npm install
 node app.js

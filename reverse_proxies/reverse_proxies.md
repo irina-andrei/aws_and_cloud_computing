@@ -29,24 +29,41 @@ The difference between a forward proxy and reverse proxy is subtle but important
 <br>
 
 ### What is Nginx's default configuration (hint - 'sites-available' directory)
+The default configuration for Nginx can be found at:
+```
+/etc/nginx/sites-available/default
+```
+![AltText](Images/default.png)
 
 <br>
 
 ### How do you set up a Nginx reverse proxy?
+To set up an Nginx Rever proxy, you need to go to the default configuration and modify the file:
+
+```
+/etc/nginx/sites-available/default
+```
+
+You need to go to the location and enter the command:
 
 
-Bonus: Try and implement a reverse proxy for the app on EC2
+```
+proxy_pass http://<<public_IP_address>>:3000;
+proxy_set_header Host $host; 
+proxy_set_header X-Real-IP $remote_addr;
+```
+
+
+![AltText](Images/command.png)
 ‌
 
-Use this website to help: How to setup an Nginx reverse proxy server example
-Instead of making a new location (example: location /examples), change the default location (i.e. location /)
+<br>
 
-Hints:
+After you modify that, the Public IP Address will display:
 
-Don't worry about setting nginx proxy header values
-Only one line needs to be replaced, the line starting with try_files
+![AltText](Images/final_display.png)
 
-
+<br>
 
 Sources:
 - [What is a port? - techtarget.com](https://www.techtarget.com/searchnetworking/definition/port)
