@@ -179,6 +179,8 @@ print("Upload was successful.")
 # printing back an output message to show the upload was successful.
 ```
 
+![AltText](Images/upload_successful.png)
+
 <br>
 
 3. `download_file_from_bucket.py`: Downloading a file from a bucket on AWS
@@ -188,14 +190,15 @@ import boto3
 s3 = boto3.client('s3')
 # this stores the connection to aws
 
-s3.Bucket('tech254-irina-bucket-test').download_file('example.txt', 's3_downloads')
+s3.download_file('tech254-irina-bucket-test', 'example.txt', 'new_example.txt')
 # downloading file
-# s3.Bucket('BUCKET_NAME').download_file('OBJECT_NAME', 'FILE_NAME')
+# s3.download_file('BUCKET_NAME', 'FILE_IN_BUCKET', 'NEW_FILE_NAME')
 
 print("Download was successful.")
 # printing back an output message to show the download was successful.
 
 ```
+![AltText](Images/download_successful.png)
 
 <br>
 
