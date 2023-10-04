@@ -56,10 +56,15 @@ proxy_set_header X-Real-IP $remote_addr;
 
 ![AltText](Images/command.png)
 ‌
-
 <br>
 
-After you modify that, the Public IP Address will display:
+Once you do that, you need to restart nginx.
+```
+sudo systemctl restart nginx
+```
+<br>
+
+After you modify that and run the app again, the Public IP Address will display:
 
 ![AltText](Images/final_display.png)
 
