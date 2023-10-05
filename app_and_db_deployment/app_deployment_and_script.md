@@ -159,6 +159,12 @@ node app.js
 Press `Ctrl + X` to Exit, choose `Y` to save file and press `Enter` to confirm file name save.
 
 <br>
+Alternate option for running the app in the background:
+```
+npm install pm2
+pm2 start app.js
+```
+<br>
 
 3. Add permision for this script to be run:
 

@@ -144,7 +144,7 @@ python3 <script_name.py>
 ### List of our Scripts:
 
 1. `create_bucket.py`: Making a bucket on AWS
-```
+```python
 import boto3
 
 s3 = boto3.client('s3')
@@ -165,7 +165,7 @@ print("Creation of bucket was successful.")
 <br>
 
 2. `upload_file_to_bucket.py`: Uploading a file to a bucket on AWS
-```
+```python
 import boto3
 
 s3 = boto3.client('s3')
@@ -184,7 +184,7 @@ print("Upload was successful.")
 <br>
 
 3. `download_file_from_bucket.py`: Downloading a file from a bucket on AWS
-```
+```python
 import boto3
 
 s3 = boto3.client('s3')
@@ -203,7 +203,7 @@ print("Download was successful.")
 <br>
 
 4. `delete_bucket.py`: Deleting a bucket on AWS
-```
+```python
 import boto3
 
 s3 = boto3.client('s3')
