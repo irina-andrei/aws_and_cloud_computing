@@ -6,27 +6,6 @@
 * Auto-Scaling
 
 
-### Once you have an APP VM running: 
-#### (worse ----> better)
-
-**A.** *As Is* - Things can go wrong. If CPU load gets too high => **falls over**.
-
-**B.** *CloudWatch* (what does monitoring on AWS)
-- CW monitoring CPU load
-- data from the monitoring shows on the *dashboard* (updated regularly) with charts
-
-=> problem: needs constant monitoring
-
-**C.** *CloudWatch + alarm*
-- CW monitoring CPU load
-- Dashboard
-- Alarm: you will be sent a notification (example: email) when CPU load gets to a certain point
-
-**D.** *CloudWatch + AutoScaling*
-- CW monitoring CPU load
-- *AutoScaling* = service that allows you to automatically adjust the capacity of your AWS resources to meet the changing demand of your applications. 
-
-<br>
 
 Useful commands:
 ```
