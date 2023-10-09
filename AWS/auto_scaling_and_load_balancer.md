@@ -1,4 +1,4 @@
-# AWS Auto-Scaling Group
+# AWS Auto Scaling Group
 
 We need to be deploying app with HA-SC (High Availability and Scalability).
 
@@ -64,6 +64,7 @@ We are Getting High Availability by putting each VM in a different Availability 
 * AZ 1c: ...
 
 Scaling Policy: monitors CPU usage - 50%
+
 Internet -----> Load Balancer 
 
 <br>

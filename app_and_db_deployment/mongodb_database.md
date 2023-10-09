@@ -115,7 +115,7 @@ node app.js
 That will run in the foreground, if you want it to run in the background, enter the command:
 
 ```
-ps2 start app.js
+pm2 start app.js
 ```
 
 Confirmation:
