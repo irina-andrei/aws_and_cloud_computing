@@ -58,7 +58,7 @@ Group Size:
 - maximum number to create: 3
 (in our case, will be created in Ireland)
 
-We are Getting High Availability by putting each VM in a different Availability Zone inside the Region (in our case, Ireland):
+We are getting **High Availability** by putting each VM in a different Availability Zone inside the Region (in our case, Ireland):
 * AZ 1a: __
 * AZ 1b: __
 * AZ 1c: ...
@@ -66,6 +66,13 @@ We are Getting High Availability by putting each VM in a different Availability 
 Scaling Policy: monitors CPU usage - 50%
 
 Internet -----> Load Balancer 
+
+<br>
+
+### Blue Green Deployment
+[What is Blue Green Deployment? - Red Hat](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment)
+
+Blue green deployment is an application release model that gradually transfers user traffic from a previous version of an app or microservice to a nearly identical new release—both of which are running in production. 
 
 <br>
 

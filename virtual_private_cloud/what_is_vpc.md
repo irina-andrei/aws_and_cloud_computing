@@ -10,9 +10,7 @@ Most important aspect of VPC is **security**: using a VPC means having greater c
 
 <br>
 
-![AltText](Images/diagram1.png)
-
-```placeholder for DIAGRAM```
+![AltText](Images/vpc_diagram.png)
 
 In a custom VPC:
 * You decide whether subnets are public or private and what Availability Zone you want for each subnet.
@@ -22,13 +20,15 @@ We will have a Public Subnet (A.Z. 1a) and a Private Subnet (A.Z. 1b)
 
 <br>
 
-![AltText](Images/diagram2.png)
+![AltText](Images/vpc_diagram_steps.png)
 
 ```placeholder for DIAGRAM```
 
 <br>
 
 **CIDR Block** = defines the range of IP Addresses allowed (IP allowance).
+
+[What is CIDR? - aws.amazon.com](https://aws.amazon.com/what-is/cidr/)
 
 You can set up a Public Router which will use the Public Route Table to send packets where they are allowed to go. 
 
@@ -308,3 +308,4 @@ pm2 start app.js
 ![AltText](Images/a15.png)
 
 ![AltText](Images/a16.png)
+
