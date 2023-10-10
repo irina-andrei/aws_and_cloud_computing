@@ -22,7 +22,7 @@ We will have a Public Subnet (A.Z. 1a) and a Private Subnet (A.Z. 1b)
 
 ![AltText](Images/vpc_diagram_steps.png)
 
-```placeholder for DIAGRAM```
+```placeholder for DIAGRAM w. STEPS```
 
 <br>
 
