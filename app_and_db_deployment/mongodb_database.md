@@ -77,7 +77,7 @@ sudo nano /etc/mongod.conf
 sudo systemctl start mongod
 ```
 
-* Enable MongoDB:
+* Enable MongoDB (it will start up when the VM will start up):
 ```
 sudo systemctl enable mongod
 ```
