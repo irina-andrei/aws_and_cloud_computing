@@ -19,9 +19,7 @@ Options for diagrams:
 
 ### Scenarios once you have an APP VM running: 
 
-```DIAGRAM PLACEHOLDER /to be updated```
-
-#### (worse ----> better)
+![AltText](Images/autoscaling_worse_better.png)
 
 **A.** *As Is* - Things can go wrong. If CPU load gets too high => **falls over**.
 

@@ -2,6 +2,8 @@
 
 VPC = **Virtual Private Cloud**
 
+![AltText](Images/vpc_aws_diagram.png)
+
 Most important aspect of VPC is **security**: using a VPC means having greater control over security.
 
 * AWS creates a default VPC for you, and there is a default subnet for each Availability Zone.
@@ -18,11 +20,6 @@ In a custom VPC:
 
 We will have a Public Subnet (A.Z. 1a) and a Private Subnet (A.Z. 1b)
 
-<br>
-
-![AltText](Images/vpc_diagram_steps.png)
-
-```placeholder for DIAGRAM w. STEPS```
 
 <br>
 
@@ -43,6 +40,11 @@ You can set up a Public Router which will use the Public Route Table to send pac
 * 2-tier Architecture: front end + back end.
 * There will still be some reserved addressess (usually .0 or .1 or .255).
 
+<br>
+
+![AltText](Images/vpc_diagram_steps.png)
+
+```placeholder for DIAGRAM w. STEPS```
 
 <br>
 
